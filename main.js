@@ -17,8 +17,6 @@ function new_image()
 	
 };
 
-function play(){
-	for ( ;; ) {
-	document.getElementById("myAudio").play();
-	}		
+function play() {
+	document.getElementById("myAudio").play();		
 }
