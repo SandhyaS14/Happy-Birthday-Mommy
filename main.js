@@ -18,5 +18,8 @@ function new_image()
 };
 
 function play(){
+	i = 0;
+	for (var i = 0; i < Infinity; i++) {		
 	document.getElementById("myAudio").play();
+	}
 }
