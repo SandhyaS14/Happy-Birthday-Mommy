@@ -18,7 +18,5 @@ function new_image()
 };
 
 function play() {
-	for (i = 0; i < Infinity; i++){
-	document.getElementById("myAudio").play();
-	}		
+	document.getElementById("myAudio").play();		
 }
